@@ -1,0 +1,12 @@
+messenger4j:
+  appSecret: 1b96862375c09ed7ececbcfc4ff8973f
+  verifyToken: barclays_bot
+  pageAccessToken: EAAbT2pUV3WYBAGJxZCCATBZCZA5ZBmhMdQG0ZAM1YMIdAx83TgOefSuU5yYzZC5ZCt5wAr3fQtVmX3loRbhZBLCDo3cEv2hhBKrS97LzMB98ehZAasQcejHJY0S8f8GFZAcWsT3ZCxeT9YDFeXKG156mUlmHVnyurp0J56cIQb0AuAYTgZDZD
+
+logging:
+  level:
+    com:
+      github:
+        messenger4j: INFO
+
+server.port: 8090

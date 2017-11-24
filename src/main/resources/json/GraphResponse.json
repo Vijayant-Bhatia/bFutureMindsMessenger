@@ -1,0 +1,74 @@
+{
+  "definitions": {},
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "The Id Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "1698930420129052"
+            ]
+          },
+          "page": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "title": "The Name Schema.",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "BarclaysBot"
+                ]
+              },
+              "id": {
+                "type": "string",
+                "title": "The Id Schema.",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "232811100589221"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "paging": {
+      "type": "object",
+      "properties": {
+        "cursors": {
+          "type": "object",
+          "properties": {
+            "before": {
+              "type": "string",
+              "title": "The Before Schema.",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "MjMyODExMTAwNTg5MjIx"
+              ]
+            },
+            "after": {
+              "type": "string",
+              "title": "The After Schema.",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "MjMyODExMTAwNTg5MjIx"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
